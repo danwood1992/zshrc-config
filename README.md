@@ -1,5 +1,5 @@
 # zshrc-config
-My zsh configiguration
+My zsh configiguration. 
 
 Commit Type Functions
 The commit type functions provide a convenient way to create commit messages with specific prefixes, indicating the type of changes being made. These functions automate the process of adding the current date and time along with the provided quick message to form the commit message.
