@@ -6,27 +6,23 @@ The commit type functions provide a convenient way to create commit messages wit
 
 ## Function List
 
-#### fcommit: For commits related to frontend changes.
-#### bcommit: For commits related to backend changes.
-#### rcommit: For commits related to refactoring. 
-#### dcommit: For commits related to documentation changes.
-#### tcommit: For commits related to test changes or additions.
-#### hcommit: For commits related to hotfixes or critical bug fixes.
-#### rmcommit: For commits related to file deletions.
+#### fcom(type): For commits related to frontend changes.
+#### bcom(type): For commits related to backend changes.
+#### dcom: For commits related to documentation changes.
 
 Usage
 To use these commit type functions, follow the syntax:
 
-<commit-type-function> "<quick-message>"
-Replace <commit-type-function> with the desired function name from the list above, and <quick-message> with a brief description of the changes being made.
+<commit-type-function"(<type>)">  "<quick-message>."
+Replace <commit-type-function> with the desired function name from the list above, and <quick-message> with a brief description of the changes being made. And  type with commit t
 
 
-``` fcommit "Updated UI styling "``` 
+``` fcommit "styles" "Updated UI styling "``` 
 
 In this example, the fcommit function is used to create a commit message for frontend changes.
-The resulting commit message will have the prefix "Frontend:" followed by the current date and time, example below.
+The resulting commit message will have the prefix "frontend:" followed by the current date and time, example below.
 
-"Frontend: 2023-05-13 15:30:45 Updated UI styling".
+"frontend(styles):  "Updated UI".
 
 Customization
 Feel free to modify the commit type prefixes, function names, or add more commit type functions to suit your project's needs. You can adjust the existing functions or create new ones based on different commit types relevant to your workflow.
