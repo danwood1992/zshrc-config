@@ -8,7 +8,6 @@ ZSH_THEME="robbyrussell"
 
 zstyle ':omz:update' mode auto
 
-
 DISABLE_MAGIC_FUNCTIONS="true"
 
 # DISABLE_LS_COLORS="true"
@@ -17,14 +16,12 @@ DISABLE_MAGIC_FUNCTIONS="true"
 
 ENABLE_CORRECTION="true"
 
-
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(git aliases git-commit )
 
 source $ZSH/oh-my-zsh.sh
-
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
